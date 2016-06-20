@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int ANGKA [3] [2];
+    char ABJAD [10] [15];
+    int baris, kolom;
+
+    for (baris =0; baris <3; baris ++) {
+        for (kolom =0; kolom<2; kolom ++) {
+            cout<<"ANGKA["<<baris <<"]["<<kolom<<"] = ";
+            cin>>ANGKA[baris][kolom];
+        }
+    }
+}

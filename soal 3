@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+      int jarak, angka[6][3];
+      double waktu, kecepatan, rata_kecepatan;
+      for(jarak=0; jarak<6; jarak++) {
+        for (waktu=0; waktu<3; waktu++) {
+            cout<<"Jarak[" <<jarak<<"]""Waktu""["<<waktu<<"] " = ";
+            cin>> angka [jarak][waktu];
+        }
+    }
+	return 0;
+}
